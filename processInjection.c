@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 const char* k = "[+]";
-const char* i = "[+]";
-const char* e = "[+]";
+const char* i = "[-]";
+const char* e = "[*]";
 
 DWORD PID, TID = NULL;
 HANDLE hProcess, hThread = NULL;
